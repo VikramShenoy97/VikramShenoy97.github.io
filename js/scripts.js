@@ -157,6 +157,14 @@
                  {
                    return item.el.attr('title');
                  }
+                 else if(item.el.attr('link') == "Current")
+                 {
+                   return item.el.attr('title') + ' &middot; <a class="image-source-link"> In Progress</a>';
+                 }
+                 else if(item.el.attr('link').indexOf('.pdf') > 0)
+                 {
+                   return item.el.attr('title') + ' &middot; <a class="image-source-link" href="'+item.el.attr('link')+'" target="_blank">Certificate</a>';
+                 }
                  else {
                    return item.el.attr('title') + ' &middot; <a class="image-source-link" href="'+item.el.attr('link')+'" target="_blank">Link to Project</a>';
                  }
