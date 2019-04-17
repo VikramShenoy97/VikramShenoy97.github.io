@@ -163,7 +163,7 @@
                  }
                  else if(item.el.attr('link').indexOf('.pdf') > 0)
                  {
-                   return item.el.attr('title') + ' &middot; <a class="image-source-link" href="'+item.el.attr('link')+'" target="_blank">Certificate</a>';
+                   return item.el.attr('title') + ' &middot; <a class="image-source-link" href="'+item.el.attr('link')+'" target="_blank">Internship Letter</a>';
                  }
                  else {
                    return item.el.attr('title') + ' &middot; <a class="image-source-link" href="'+item.el.attr('link')+'" target="_blank">Link to Project</a>';
