@@ -505,6 +505,7 @@ body.loaded #preloader{
   padding-top: 25px;
   padding-right: 40px;
 	font-size: 15px;
+  text-align:justify;
   color:#ffffff
 }
 
