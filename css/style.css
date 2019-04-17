@@ -340,6 +340,24 @@ body.loaded #preloader{
       background-size: cover;
       z-index: 1;
   }
+  .home-section-background h2 {
+      color: #f8f8f8;
+      font-size: 65px;
+      font-family: helvetica;
+      font-weight: lighter;
+      letter-spacing: 5px;
+      margin: 0;
+  }
+
+  .home-section-background p {
+      color: #f8f8f8;
+      letter-spacing: 4px;
+      font-size: 25px;
+      font-family: helvetica;
+      padding: 20px;
+  	margin-top: 40px;
+  	margin-bottom: 40px;
+  }
 }
 
 .home-section-background:after {
