@@ -166,7 +166,10 @@
                    return item.el.attr('title') + ' &middot; <a class="image-source-link" href="'+item.el.attr('link')+'" target="_blank">Internship Letter</a>';
                  }
                  else {
-                   return item.el.attr('title') + ' &middot; <a class="image-source-link" href="'+item.el.attr('link')+'" target="_blank">Link to Project</a>';
+                   if(item.el.attr('report_link') != "Null"){
+                     return item.el.attr('title') + ' &middot; <a class="image-source-link" href="'+item.el.attr('link')+'" target="_blank">Link to Project</a>'+' &middot; <a class="image-source-link" href="'+item.el.attr('report_link')+'" target="_blank">Report</a>';
+                   }
+                    return item.el.attr('title') + ' &middot; <a class="image-source-link" href="'+item.el.attr('link')+'" target="_blank">Link to Project</a>';
                  }
 
               }
