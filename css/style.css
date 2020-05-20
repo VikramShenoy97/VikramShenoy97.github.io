@@ -569,6 +569,7 @@ ul.portfolio li {
 ul.portfolio li:hover {
     color: #ffffff;
     border: none;
+
 }
 
 ul.portfolio li.active {
@@ -593,7 +594,6 @@ ul.portfolio li.active {
 .item {
     -webkit-transition: .3s;
     transition: .3s;
-
 }
 
 .portfolio .item:hover a:before{
@@ -631,9 +631,9 @@ ul.portfolio li.active {
 
 .mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close {
 	margin-top: 40px;
-    font-size: 50px;
-    background-color: #24b662;
-    width: 44px;
+  font-size: 50px;
+  background-color: #24b662;
+  width: 44px;
 	right: 0px;
 }
 
