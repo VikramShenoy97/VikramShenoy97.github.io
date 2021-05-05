@@ -505,6 +505,31 @@ body.loaded #preloader{
 
 /* About Me */
 
+.about-section {
+  overflow: hidden;
+  background-color: #000000;
+}
+.about-section img {
+   position: absolute;
+   margin-top: 125px;
+}
+.about-me {}
+
+.about-me h2 {
+  margin-left: 40px;
+  margin-right: 40px;
+  color:#ffffff
+}
+
+.about-me p {
+  padding-left: 40px;
+  padding-top: 10px;
+  padding-right: 40px;
+  font-size: 15px;
+  text-align:justify;
+  color:#ffffff
+}
+
 @media only screen and (min-width : 2560px){
   .about-section {
   	overflow: hidden;
@@ -519,7 +544,7 @@ body.loaded #preloader{
   .about-me h2 {
   	margin-left: 40px;
     margin-right: 40px;
-    margin-top: 5px;
+    margin-top: 2px;
     color:#ffffff
   }
 
